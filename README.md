@@ -48,14 +48,41 @@
 
 
 <details>
-    <summary>Workshop 3 (Conditionals, Arrays)</summary>
+    <summary>Workshop 3 (Conditionals & Loops)</summary>
     <br>
     <ul>
         <li>Conditionals (if; else; else if)</li>
         <li>Logical Operators (&&; ||; !)</li>
+        <li>While Loop</li>
+        <li>Do While Loop</li>
+        <li>For Loop</li>
+        <li>Infinite Loops</li>
+    </ul>
+</details>
+
+
+<details>
+    <summary>Workshop 4 (Arrays)</summary>
+    <br>
+    <ul>
         <li>Arrays</li>
         <li>Index</li>
         <li>Manipulating Array elements</li>
+        <li>Array methods</li>
         <li>Sotring Arrays</li>
+    </ul>
+</details>
+
+<details>
+    <summary>Workshop 5 (Functions)</summary>
+    <br>
+    <ul>
+        <li>Defining Functions</li>
+        <li>Function Parameters</li>
+        <li>Returning Values</li>
+        <li>Default Parameters</li>
+        <li>Arrow Functions</li>
+        <li>Function Expressions</li>
+        <li>Higher Order Functions</li>
     </ul>
 </details>
