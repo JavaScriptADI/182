@@ -9,6 +9,7 @@
 - [Assignment 3](https://classroom.github.com/a/uKacETOn)
 - [Assignment 4](https://classroom.github.com/a/ioA8N2Cp)
 - [Assignment 5](https://classroom.github.com/a/SUHNlOlQ)
+- [Midterm](https://classroom.github.com/a/37plXKrq)
 
 
 ### Resources
