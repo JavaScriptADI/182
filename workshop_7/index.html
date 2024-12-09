@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=viewport, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .good {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="free" class="bad"></div>
+
+    <script>
+
+        const div = document.getElementById('free');
+        console.log(div);
+        div.style.height = '100vh';
+        // div.className = "good";
+        div.classList.add("good");
+        div.classList.remove("bad");
+
+        console.log(document.body);
+        const newP = document.createElement('p');
+        newP.innerText = "Hello from JavaScript";
+        newP.style.color = 'red';
+        // document.body.appendChild(newP);
+        div.appendChild(newP);
+
+        const newDiv = document.createElement('div');
+
+        // newDiv.innerText = "<p>Hello There</p>";
+        newDiv.innerHTML = "<p>Hello There</p>";
+
+        console.log(newDiv);
+        div.appendChild(newDiv);
+
+    </script>
+</body>
+</html>

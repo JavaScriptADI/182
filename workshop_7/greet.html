@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=viewport, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        const name = prompt("Your name?");
+
+        const p = document.createElement('p');
+        p.innerHTML = `Hello <strong>${name}</strong>`;
+
+        document.body.appendChild(p);
+
+        setTimeout(() => {
+            p.remove();
+        }, 1000);
+
+    </script>
+    
+</body>
+</html>

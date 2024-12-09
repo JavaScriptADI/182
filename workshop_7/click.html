@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=viewport, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button>
+        Click me
+    </button>
+
+
+    <script>
+        const button = document.querySelector('button');
+
+        console.log(button);
+
+        function randint(a, b) {
+            /*
+            inclusive [a & b]
+            */
+            return parseInt(Math.random() * (b - a + 1) + a);
+        }
+
+        function generateRandomString(length) {
+            let text = '';
+            for (let i = 0; i < length; i++) {
+                text += String.fromCharCode(randint(65, 90));
+            }
+            return text;
+        }
+
+        button.addEventListener('click', () => {
+            // alert("I've been clicked!");
+            document.title = generateRandomString(randint(5, 10));
+        });
+
+        document.title = 'Click';
+
+        console.log(document.title);
+    </script>
+    
+</body>
+</html>

@@ -88,3 +88,17 @@
         <li>Higher Order Functions</li>
     </ul>
 </details>
+
+
+<details>
+    <summary>Workshop 7 (DOM)</summary>
+    <br>
+    <ul>
+        <li>What is the DOM</li>
+        <li>Accessing Elements</li>
+        <li>Manipulating Elements</li>
+        <li>Creating Elements</li>
+        <li>Event Listeners</li>
+        <li>Event Propagation</li>
+    </ul>
+</details>
