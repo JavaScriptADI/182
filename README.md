@@ -89,6 +89,19 @@
     </ul>
 </details>
 
+<details>
+    <summary>Workshop 6 (Objects)</summary>
+    <br>
+    <ul>
+        <li>Creating Objects</li>
+        <li>Accessing Object Properties</li>
+        <li>Modifying Object Properties</li>
+        <li>Nested Objects</li>
+        <li>Deleting Properties</li>
+        <li>Iterating Over Objects</li>
+    </ul>
+</details>
+
 
 <details>
     <summary>Workshop 7 (DOM)</summary>
@@ -100,5 +113,19 @@
         <li>Creating Elements</li>
         <li>Event Listeners</li>
         <li>Event Propagation</li>
+    </ul>
+</details>
+
+<details>
+    <summary>Workshop 8 (APIs)</summary>
+    <br>
+    <ul>
+        <li>What is an API</li>
+        <li>Making API Requests</li>
+        <li>Handling API Responses</li>
+        <li>Working with JSON</li>
+        <li>Asynchronous JavaScript</li>
+        <li>Promises</li>
+        <li>Async/Await</li>
     </ul>
 </details>
